@@ -1,0 +1,17 @@
+{
+  "name": "firebase-jwt-validator",
+  "version": "0.0.1",
+  "description": "Validate Firebase JWT keys without NodeJS (For use in Cloudflare Workers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael R. Garfinkel",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "jsrsasign": "^10.5.14"
+  }
+}
